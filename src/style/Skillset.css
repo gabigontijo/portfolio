@@ -1,0 +1,146 @@
+.skills_div{
+    width: 100%;
+    height: 100%;
+    padding:  0 5em 6em 5em;
+    margin: 0;
+}
+
+.skills_section{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 80%;
+}
+
+.skills_header {
+    border-top: solid 2px rgba(210, 215, 217, 0.75);
+    margin: 0 0 2em 0;
+    padding: 0 0.75em 0.5em 0;
+}
+
+.articles {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+
+}
+
+.skills_articles {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    height: 20%;
+    margin-bottom: 2.5em;
+}
+
+.skills_article {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 50%;
+    height: 100%;
+}
+
+.skills_article i {
+    width: 15%;
+    height: 100%;
+    -webkit-box-shadow: 0px 10px 11px -12px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 10px 11px -12px rgba(0,0,0,0.75);
+    box-shadow: 0px 10px 11px -12px rgba(0,0,0,0.75);
+    padding: 0.5em;
+}
+
+
+.skills_article img {
+    width: 100%;
+    height: 100%;
+    max-width: 150px;
+   }
+
+.skills_article p {
+    width: 30%;
+    margin-left: 2em;
+    font-weight: 700;
+    line-height: 1.5;
+    font-size: 1.3em;
+    color: var(--title-color);
+}
+
+@media screen  and ( max-width : 1680px ) {
+}
+
+@media screen  and ( max-width : 1200px ) {
+
+}
+
+
+@media screen  and ( max-width : 1040px ) {
+    .skills_div{
+        padding:  0 2.5em 2.5em 2.5em;
+    }
+
+}
+
+@media screen  and ( max-width : 840px ) {
+    .skills_div{
+        padding:  0 2em 2em 2em;
+    }
+
+}
+
+
+@media screen  and ( max-width : 640px ) {
+
+}
+
+@media screen  and ( max-width : 480px ) {
+    .skills_div{
+        width: 100lvw;
+        padding:  0 1.5em 1.5em 1.5em;
+    }
+
+    .skills_header {
+        margin: 0 0 1em 0;
+    }
+
+    .skills_article {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        width: 50%;
+        height: 100%;
+    }
+
+    .skills_article i {
+        width: 50%;
+        height: 100%;
+        padding: 0.3em;
+        margin-bottom: 1em;
+    }
+
+
+    .skills_article img {
+        width: 80%;
+       }
+
+    .skills_article p {
+        width: 100%;
+        margin-left: 0;
+        font-size: 1.2em;
+        text-align: center;
+    }
+
+}
+
+
+@media screen  and ( max-width : 380px ) {
+
+
+
+
+
+}

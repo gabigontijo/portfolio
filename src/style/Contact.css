@@ -1,0 +1,136 @@
+.Contact {
+    width: 100%;
+    padding:  0 5em 5em 5em;
+}
+
+.Contact_div{
+    width: 100%;
+    height: 100%;
+}
+
+.Contact_div h2{
+    margin: 2em 0 ;
+
+}
+
+.Contact_div_articles {
+    width: 100%;
+    display: flex;
+}
+
+.Contact_articles {
+    margin-right: 5em;
+    width: 19em;
+    cursor: pointer;
+
+}
+
+.Contact_articles:hover {
+   background-color: var(--hover-color);
+   border-radius: 2px;
+   width: 19em;
+
+}
+
+.Contact_articles h4 {
+    color: var(--title-color);
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    line-height: 1.5;
+    font-size: 1.2em;
+}
+
+.Contact_articles p {
+    color: var(--text-color);
+    font-weight: 700;
+    line-height: 1.5;
+    font-size: 1.1em;
+    margin-left: 2em;
+}
+
+@media screen  and ( max-width : 1680px ) {
+}
+
+@media screen  and ( max-width : 1200px ) {
+
+}
+
+
+@media screen  and ( max-width : 1040px ) {
+    .Contact {
+        padding:  0 2.5em 2.5em 2.5em;
+    }
+
+}
+
+@media screen  and ( max-width : 840px ) {
+    .Contact {
+        padding:  0 2em 2em 2em;
+    }
+
+    .Contact_articles h4 {
+        font-size: 1.1em;
+    }
+
+    .Contact_articles p {
+        font-size: 1em;
+        margin-left: 2.5em;
+    }
+}
+
+
+@media screen  and ( max-width : 640px ) {
+
+}
+
+@media screen  and ( max-width : 480px ) {
+    .Contact {
+        padding:  0 1em 1em 1em;
+    }
+
+    .Contact_div h2{
+        margin: 1em 0 ;
+
+    }
+
+    .Contact_div_articles {
+        flex-direction: column;
+    }
+
+    .Contact_articles {
+        margin-right: 2em;
+        display: flex;
+        flex-direction: column;
+        width: 15em;
+        margin-bottom: 1.5em;
+
+    }
+
+    .Contact_articles h4 {
+        font-weight: 700;
+        line-height: 1;
+        font-size: 0.8em;
+        margin-top: 1em;
+    }
+
+    .Contact_articles h4 svg{
+        font-size: 2.1em;
+        margin-right: 15px;
+    }
+
+    .Contact_articles p {
+        font-size: 0.7em;
+        margin-left: 3.5em;
+    }
+
+}
+
+
+@media screen  and ( max-width : 380px ) {
+
+
+
+
+
+}

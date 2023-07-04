@@ -1,0 +1,303 @@
+.card_resume {
+    display: flex;
+    width: 100%;
+    padding: 5em 5em 0 5em;
+    margin: 5em 0;
+
+}
+
+.section_resume {
+    width: 60%;
+    height: 100%;
+    padding-right: 3em;
+}
+
+.section_resume strong{
+    color: #3d4449;
+}
+
+.section_resume p{
+    font-size: 13pt;
+    font-weight: 400;
+    line-height: 2;
+    margin: 0 0 2em 0;
+
+}
+
+.img_resume {
+    width: 710px;
+    background-image: url('../images/1.JPG');
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+
+}
+
+.resume_btn {
+    font-family: "Roboto Slab", serif;
+    font-size: 0.9em;
+    font-weight: 700;
+    height: 3.5em;
+    letter-spacing: 0.075em;
+    line-height: 3.5em;
+    padding: 0 2.25em;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+@media screen  and ( max-width : 1680px ) {
+    .card_resume {
+        margin: 8em 0;
+    }
+
+    .section_resume h1 {
+        font-size: 2.6em;
+        padding-top: 1em;
+        padding-bottom: 0;
+    }
+
+    .section_resume h4 {
+        font-size: 1.3em;
+        letter-spacing: 0.06em;
+        padding-bottom: 2em;
+    }
+
+    .section_resume p{
+        font-size: 16pt;
+        font-weight: 400;
+        line-height: 1.6;
+        margin: 0 0 2em 0;
+    }
+
+    .resume_btn {
+        font-size: 1em;
+    }
+}
+
+@media screen  and ( max-width : 1200px ) {
+
+}
+
+
+@media screen  and ( max-width : 1040px ) {
+    .card_resume {
+        flex-direction: column-reverse;
+        padding: 2.5em 2.5em 0 2.5em;
+        margin-top: 4em;
+    }
+
+    .section_resume {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        padding-right: 0;
+    }
+
+    .section_resume h1 {
+        font-size: 2.5em;
+        padding-top: 2em;
+        padding-bottom: 0;
+    }
+
+    .section_resume h4 {
+        font-size: 1.2em;
+        letter-spacing: 0.06em;
+        padding-bottom: 2em;
+    }
+
+    .section_resume p{
+        font-size: 14pt;
+        font-weight: 400;
+        line-height: 1.6;
+        margin: 0 0 2em 0;
+
+
+    }
+    .img_resume {
+        width: 100%;
+        height: 425px;
+    }
+
+    .resume_btn {
+        width: 30%;
+        font-size: 0.8em;
+        height: 3em;
+        letter-spacing: 0.06em;
+        padding: 2em;
+        margin-top: 2em;
+        margin-bottom: 3em;
+    }
+}
+
+@media screen  and ( max-width : 840px ) {
+    .card_resume {
+        flex-direction: column-reverse;
+        padding: 2em 2em 0 2em;
+        margin-top: 4em;
+    }
+
+    .section_resume {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        padding-right: 0;
+    }
+
+    .section_resume h1 {
+        font-size: 2.2em;
+        padding-top: 2em;
+        padding-bottom: 0;
+    }
+
+    .section_resume h4 {
+        font-size: 1.1em;
+        letter-spacing: 0.06em;
+        padding-bottom: 2em;
+    }
+
+    .section_resume p{
+        font-size: 13pt;
+        font-weight: 400;
+        line-height: 1.6;
+        margin: 0 0 2em 0;
+
+
+    }
+    .img_resume {
+        width: 100%;
+        height: 333px;
+    }
+
+    .resume_btn {
+        width: 30%;
+        font-size: 0.8em;
+        height: 3em;
+        letter-spacing: 0.06em;
+        padding: 2em;
+        margin-top: 2em;
+        margin-bottom: 3em;
+    }
+
+}
+
+
+@media screen  and ( max-width : 640px ) {
+    .card_resume {
+        flex-direction: column-reverse;
+        padding: 2em 2em 0 2em;
+        margin-top: 3em;
+        margin-bottom: 1em;
+    }
+
+    .section_resume {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        padding-right: 0;
+    }
+
+    .section_resume h1 {
+        font-size: 2.1em;
+        padding-top: 2em;
+        padding-bottom: 0;
+    }
+
+    .section_resume h4 {
+        font-size: 1.1em;
+        letter-spacing: 0.06em;
+        padding-bottom: 2em;
+    }
+
+    .section_resume p{
+        font-size: 12pt;
+        font-weight: 400;
+        line-height: 1.6;
+        margin: 0 0 2em 0;
+
+
+    }
+    .img_resume {
+        width: 100%;
+        height: 333px;
+    }
+
+    .resume_btn {
+        width: 30%;
+        font-size: 0.8em;
+        height: 3em;
+        letter-spacing: 0.06em;
+        padding: 2em;
+        margin-top: 2em;
+        margin-bottom: 3em;
+    }
+
+
+}
+
+@media screen  and ( max-width : 480px ) {
+
+    .card_resume {
+        flex-direction: column-reverse;
+        padding: 1.5em 1.5em 0 1.5em;
+        margin-top: 4em;
+    }
+
+    .section_resume {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        padding-right: 0;
+    }
+
+    .section_resume h1 {
+        font-size: 1.5em;
+        padding-top: 2em;
+        padding-bottom: 0;
+    }
+
+    .section_resume h4 {
+        font-size: 0.9em;
+        letter-spacing: 0.06em;
+        padding-bottom: 2em;
+    }
+
+    .section_resume p{
+        font-size: 10pt;
+        font-weight: 400;
+        line-height: 1.6;
+
+    }
+    .img_resume {
+        width: 100%;
+        height: 313px;
+    }
+
+    .resume_btn {
+        width: 30%;
+        font-size: 0.6em;
+        height: 3em;
+        letter-spacing: 0.06em;
+        padding: 1.6em;
+        margin-top: 2em;
+        margin-bottom: 2em;
+    }
+
+}
+
+
+@media screen  and ( max-width : 380px ) {
+    .card_resume {
+        margin-top: 3em;
+    }
+
+    .section_resume {
+        width: 100%;
+
+    }
+
+
+
+
+}
