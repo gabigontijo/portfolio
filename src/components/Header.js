@@ -51,8 +51,9 @@ export default function HideAppBar(props) {
                   </a>
                 </li>
                 <li>
-               <Link to="#contact">
-                <ContactPhoneIcon  sx={{ fontSize: '2rem', color:'#ecf0f1' }}/> </Link>
+                <Link to="#contact">
+                <ContactPhoneIcon  sx={{ fontSize: '2rem', color:'#ecf0f1' }}/>
+                </Link>
                 </li>
               </div>
             </div>
