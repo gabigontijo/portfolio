@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { BrowserRouter } from 'react-router-dom';
+import { HashRouter as Router  } from 'react-router-dom';
 import { StyledEngineProvider } from '@mui/material/styles';
 import './index.css';
 import App from './App';
@@ -12,13 +12,13 @@ import theme from './theme';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-  <BrowserRouter>
+  <Router>
   <StyledEngineProvider injectFirst>
   <ThemeProvider theme={theme}>
     <App />
   </ThemeProvider>
   </StyledEngineProvider>
-</BrowserRouter>
+</Router>
 </React.StrictMode>
 
 );
