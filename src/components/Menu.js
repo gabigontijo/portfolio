@@ -69,19 +69,19 @@ export default function LongMenu() {
             <h1 className='titles_menu'>Menu</h1>
             <MenuItem className='item_menu'>
               <ReceiptOutlinedIcon sx={{ fontSize: '2rem', color: 'var(--title-color)' }} />
-              <a href='https://gabigontijo.github.io/dev/' target='_blank' rel='noreferrer'>
+              <a href="https://gabigontijo.github.io/portfolio/#/dev" target='_blank' rel='noreferrer'>
                 Home
               </a>
             </MenuItem>
             <MenuItem className='item_menu'>
               <FilterIcon sx={{ fontSize: '2rem', color: 'var(--title-color)' }} />
-              <a href='https://gabigontijo.github.io' target='_blank' rel='noreferrer'>
+              <a href="https://gabigontijo.github.io/portfolio/" target='_blank' rel='noreferrer'>
                 Exhibition
               </a>
             </MenuItem>
             <MenuItem className='item_menu'>
               <FolderOpenIcon sx={{ fontSize: '2rem', color: 'var(--title-color)' }} />
-              <a href='https://github.com/gabigontijo?tab=repositories' target='_blank' rel='noreferrer'>
+              <a href="https://github.com/gabigontijo?tab=repositories" target='_blank' rel='noreferrer'>
                 Repositories
               </a>
             </MenuItem>

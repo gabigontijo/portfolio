@@ -32,11 +32,7 @@ export default function CardExhibition() {
           </section>
           <section className='section_icons_btns'>
             <button>
-              {' '}
               <Link to="/dev"><ComputerIcon color='disabled' sx={{ fontSize: '2.8rem' }} /></Link>
-              {/* <a href='https://gabigontijo.github.io/portfolio/dev' alt='portifolio' target='_blank' rel='noreferrer'>
-                <ComputerIcon color='disabled' sx={{ fontSize: '2.8rem' }} />
-              </a> */}
             </button>
             <button>
               <a href='https://github.com/gabigontijo' alt='gitHub' target='_blank' rel='noreferrer'>

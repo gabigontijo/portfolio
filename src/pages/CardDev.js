@@ -5,7 +5,6 @@ import Skillset from '../components/Skillset'
 import Projects from '../components/Projects'
 import Footer from '../components/Footer'
 import Contact from '../components/Contact'
-// import '../style/Footer.css'
 
 export default function CardDev() {
   return (
@@ -14,7 +13,7 @@ export default function CardDev() {
       <Resume />
       <Skillset />
       <Projects />
-      <Contact />
+      <Contact/>
       <Footer />
     </div>
   )

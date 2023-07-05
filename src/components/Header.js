@@ -1,4 +1,5 @@
 import * as React from 'react'
+import { Link } from "react-router-dom"
 import AppBar from '@mui/material/AppBar'
 import Toolbar from '@mui/material/Toolbar'
 import CssBaseline from '@mui/material/CssBaseline'
@@ -50,10 +51,8 @@ export default function HideAppBar(props) {
                   </a>
                 </li>
                 <li>
-                  <a href='#contact' alt='portifolio'>
-                    {' '}
-                    <ContactPhoneIcon sx={{ fontSize: '2rem', color: '#ecf0f1' }} />{' '}
-                  </a>
+               <Link to="#contact">
+                <ContactPhoneIcon  sx={{ fontSize: '2rem', color:'#ecf0f1' }}/> </Link>
                 </li>
               </div>
             </div>
