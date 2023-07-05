@@ -7,7 +7,7 @@ function App() {
 
   return (
     <Routes>
-      <Route exact path="/dev" element={<CardDev />}/>
+      <Route path="/dev" element={<CardDev />}/>
       <Route exact path="/" element={<CardExhibition />}/>
     </Routes>
   );
