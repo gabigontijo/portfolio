@@ -1,14 +1,14 @@
 import './App.css';
-import CardExhibition from './pages/CardExhibition';
 import CardDev from './pages/CardDev';
+import CardExhibition from './pages/CardExhibition';
 import { Routes, Route } from 'react-router-dom';
 
 function App() {
 
   return (
     <Routes>
-      <Route exact path="/" element={  <CardExhibition />}/>
-      <Route exact path="/dev" element={  <CardDev />}/>
+      <Route exact path="/dev" element={<CardDev />}/>
+      <Route exact path="/" element={<CardExhibition />}/>
     </Routes>
   );
 }

@@ -1,12 +1,7 @@
 {
-  "short_name": "Portifólio",
-  "name": "Gabrieladev.com",
+  "short_name": "GaiGontijo DEV",
+  "name": "Portfolio GabiGontijo DEV",
   "icons": [
-    {
-      "src": "pc_icon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
-    },
     {
       "src": "logo192.png",
       "type": "image/png",
