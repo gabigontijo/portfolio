@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from "react-router-dom"
 import { Paper } from '@mui/material'
 import { styled } from '@mui/material/styles'
 import Avatar from '@mui/material/Avatar'
@@ -32,7 +33,8 @@ export default function CardExhibition() {
           <section className='section_icons_btns'>
             <button>
               {' '}
-              <a href='https://gabigontijo.github.io' alt='portifolio' target='_blank' rel='noreferrer'>
+              <Link to="/dev">DEV</Link>
+              <a href='https://gabigontijo.github.io/portfolio/dev' alt='portifolio' target='_blank' rel='noreferrer'>
                 <ComputerIcon color='disabled' sx={{ fontSize: '2.8rem' }} />
               </a>
             </button>
