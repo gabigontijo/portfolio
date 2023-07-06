@@ -24,14 +24,9 @@ export default function LongMenu() {
   }
 
   const copyToClipboard = (element) => {
-    var str = element.target.innerText
-    document.getElementById('inputCopy').style.display = 'block'
-    document.getElementById('inputCopy').value = str
-    var copyTextInput = document.getElementById('inputCopy')
-    copyTextInput.select()
-    document.execCommand('copy')
-    document.getElementById('inputCopy').style.display = 'none'
-    alert('Text copied to clipboard')
+    var str = element.target.innerText;
+    navigator.clipboard.writeText(str);
+    alert('Text copied to clipboard');
   }
 
   return (
