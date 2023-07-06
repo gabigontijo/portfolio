@@ -21,14 +21,6 @@
 .Contact_articles {
     margin-right: 5em;
     width: 19em;
-    cursor: pointer;
-
-}
-
-.Contact_articles:hover {
-   background-color: var(--hover-color);
-   border-radius: 2px;
-   width: 19em;
 
 }
 
@@ -47,7 +39,12 @@
     line-height: 1.5;
     font-size: 1.1em;
     margin-left: 2em;
+    cursor: pointer;
 }
+
+.Contact_articles p:hover {
+   color: var(--purple-color);
+ }
 
 @media screen  and ( max-width : 1680px ) {
 }
