@@ -62,11 +62,9 @@ export default function LongMenu() {
         <section className='section_menu'>
           <div>
             <h1 className='titles_menu'>Menu</h1>
-            <MenuItem className='item_menu'>
+            <MenuItem className='item_menu' onClick={handleClose}>
               <ReceiptOutlinedIcon sx={{ fontSize: '2rem', color: 'var(--title-color)' }} />
-              <a href="https://gabigontijo.github.io/portfolio/#/dev" rel='noreferrer'>
-                Home
-              </a>
+              <p>Home</p>
             </MenuItem>
             <MenuItem className='item_menu'>
               <FilterIcon sx={{ fontSize: '2rem', color: 'var(--title-color)' }} />
