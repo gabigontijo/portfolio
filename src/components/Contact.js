@@ -34,12 +34,12 @@ function Contact() {
             </h4>
             <p onClick={copyToClipboard}>+351 915-204-569</p>
           </article>
-          <article className='Contact_articles' onClick={copyToClipboard}>
+          <article className='Contact_articles'>
             <h4>
               <MailOutlineIcon sx={{ fontSize: '2rem', color: 'var(--title-color)', marginRight: '0.2em' }} />
               Email
             </h4>
-            <p>dev.gabigontijo@gmail.com</p>
+            <p onClick={copyToClipboard}>dev.gabigontijo@gmail.com</p>
           </article>
         </div>
         <input id='inputCopy' type='text' style={{ display: 'none' }}></input>
