@@ -51,7 +51,7 @@ export default function HideAppBar(props) {
                   </a>
                 </li>
                 <li>
-                <Link to="#contact">
+                <Link to="" onClick={() => document.getElementById('contact').scrollIntoView()}>
                 <ContactPhoneIcon  sx={{ fontSize: '2rem', color:'#ecf0f1' }}/>
                 </Link>
                 </li>
